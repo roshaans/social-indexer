@@ -1,0 +1,4 @@
+DEFINE_NEAR_METHOD(IndexerRegistry)
+DEFINE_NEAR_METHOD(read_indexer_function)
+DEFINE_NEAR_METHOD(register_indexer_function)
+DEFINE_NEAR_METHOD(remove_indexer_function)

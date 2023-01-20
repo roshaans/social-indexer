@@ -1,0 +1,15 @@
+{
+  "name": "near-indexer",
+  "version": "1.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "scripts": {
+    "start": "cd frontend && npm run start",
+    "deploy": "cd contract && npm run deploy",
+    "build:contract": "cd contract && npm run build",
+    "test": "npm run test:unit && npm run test:integration"
+  },
+  "devDependencies": {
+    "near-cli": "^3.3.0"
+  },
+  "dependencies": {}
+}
